@@ -1,0 +1,25 @@
+{
+  "servers": [
+    {
+      "name": "Sequential Thinking Server",
+      "id": "sequential-thinking",
+      "path": "sequential-thinking-server",
+      "startCommand": "mcp-server-sequential-thinking",
+      "description": "Helps with complex problem-solving by breaking tasks down into steps."
+    },
+    {
+      "name": "MCP Neo4j Cypher",
+      "id": "mcp-neo4j-cypher",
+      "path": "mcp-neo4j-cypher",
+      "startCommand": "mcp-neo4j-cypher",
+      "description": "Interacts with a Neo4j graph database using the Cypher query language."
+    },
+    {
+      "name": "Data Gen",
+      "id": "data-gen",
+      "path": "data-gen",
+      "startCommand": "python server.py",
+      "description": "A tool for to read/write data to the upskilling database."
+    }
+  ]
+} 
